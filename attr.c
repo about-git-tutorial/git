@@ -58,7 +58,7 @@ static inline void hashmap_unlock(struct attr_hashmap *map)
  * Access to this dictionary must be surrounded with a mutex.
  */
 static struct attr_hashmap g_attr_hashmap;
-
+/*komenatarz*/
 /* The container for objects stored in "struct attr_hashmap" */
 struct attr_hash_entry {
 	struct hashmap_entry ent;
